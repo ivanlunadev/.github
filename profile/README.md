@@ -2,9 +2,11 @@
 
 Production AI infrastructure and privacy-first products. Buenos Aires, Argentina; working remotely with international clients since 2021.
 
-Five years designing and maintaining production systems: LLM integrations, Model Context Protocol servers, and full-stack platforms serving real traffic.
+Five years designing and maintaining production systems: agent tooling for Claude Code, LLM integrations, Model Context Protocol servers, and full-stack platforms serving real traffic.
 
 ### What I work on
+
+**Agent tooling.** Claude Code plugins and Agent Skills that change how a coding agent behaves — what it reads, what it prints, what it spends — enforced at the tool call rather than left to the model, and judged against a published benchmark instead of a claim.
 
 **LLM integration.** Provider APIs (Claude, Gemini, OpenAI, OpenRouter) integrated into production systems, with model fallback, rate limiting and cost control, so that a change on the provider's side does not interrupt the service.
 
@@ -16,6 +18,7 @@ Five years designing and maintaining production systems: LLM integrations, Model
 
 | | |
 |---|---|
+| **[ThinWindow](https://github.com/thinwindow/thinwindow)** | Claude Code plugin and Agent Skill that makes coding agents read less: 12% to 23% fewer tokens across 112 benchmark runs on three models, at the same success rate. Every raw run is published. MIT. → [`@thinwindow`](https://github.com/thinwindow) |
 | **[Gitset](https://gitset.dev)** | Open-source toolkit for everything around your code on GitHub — README, PR, issue and release drafting, repository backups. Web app and CLI (`@gitset-dev/cli`), bring-your-own-AI-key, MPL-2.0. → [`@gitset-dev`](https://github.com/gitset-dev) |
 | **[MCP Series](https://ivanluna.dev/projects/post-mcp-series)** | Production-ready Model Context Protocol servers for AI agents: browser automation, service integrations, real workflows for Claude Desktop and other MCP clients. → [`@mcp-series`](https://github.com/mcp-series) |
 | **[Tracevisor](https://tracevisor.com)** | Privacy-first web analytics as a GDPR/CCPA-compliant alternative to Google Analytics: real-time tracking, embeddable dashboards, carbon footprint metrics. → [`@tracevisor`](https://github.com/tracevisor) |
@@ -23,7 +26,7 @@ Five years designing and maintaining production systems: LLM integrations, Model
 
 ### Working together
 
-Open to selected engagements: AI integration and MCP work, backend and API design, or taking a product from architecture to production.
+Open to selected engagements: agent tooling, AI integration and MCP work, backend and API design, or taking a product from architecture to production.
 
 Twenty-plus production applications delivered for international clients, with REST APIs handling 10K–20K daily requests.
 

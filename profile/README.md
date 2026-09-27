@@ -18,7 +18,7 @@ Five years designing and maintaining production systems: agent tooling for Claud
 
 | | |
 |---|---|
-| **[ThinWindow](https://github.com/thinwindow/thinwindow)** | Claude Code plugin and Agent Skill that makes coding agents read less: 12% to 23% fewer tokens across 112 benchmark runs on three models, at the same success rate. Every raw run is published. MIT. → [`@thinwindow`](https://github.com/thinwindow) |
+| **[ThinWindow](https://github.com/thinwindow/thinwindow)** | Claude Code plugin and Agent Skill that makes coding agents read less: 13% to 19% fewer tokens on runs that passed their hidden check, measured across 112 benchmark runs on three models, with success unchanged on Opus and Sonnet. Every raw run is published. MIT. → [`@thinwindow`](https://github.com/thinwindow) |
 | **[Gitset](https://gitset.dev)** | Open-source toolkit for everything around your code on GitHub — README, PR, issue and release drafting, repository backups. Web app and CLI (`@gitset-dev/cli`), bring-your-own-AI-key, MPL-2.0. → [`@gitset-dev`](https://github.com/gitset-dev) |
 | **[MCP Series](https://ivanluna.dev/projects/post-mcp-series)** | Production-ready Model Context Protocol servers for AI agents: browser automation, service integrations, real workflows for Claude Desktop and other MCP clients. → [`@mcp-series`](https://github.com/mcp-series) |
 | **[Tracevisor](https://tracevisor.com)** | Privacy-first web analytics as a GDPR/CCPA-compliant alternative to Google Analytics: real-time tracking, embeddable dashboards, carbon footprint metrics. → [`@tracevisor`](https://github.com/tracevisor) |

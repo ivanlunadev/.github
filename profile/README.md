@@ -6,7 +6,7 @@ Five years designing and maintaining production systems: agent tooling for Claud
 
 ### What I work on
 
-**Agent tooling.** Claude Code plugins and Agent Skills that change how a coding agent behaves — what it reads, what it prints, what it spends — enforced at the tool call rather than left to the model, and judged against a published benchmark instead of a claim.
+**Agent tooling.** Claude Code plugins and Agent Skills that change how a coding agent behaves — what it reads, what it prints, what it spends, whether it pushes back instead of agreeing — each judged against a published benchmark or eval suite instead of a claim.
 
 **LLM integration.** Provider APIs (Claude, Gemini, OpenAI, OpenRouter) integrated into production systems, with model fallback, rate limiting and cost control, so that a change on the provider's side does not interrupt the service.
 
@@ -18,7 +18,8 @@ Five years designing and maintaining production systems: agent tooling for Claud
 
 | | |
 |---|---|
-| **[ThinWindow](https://github.com/thinwindow/thinwindow)** | Claude Code plugin and Agent Skill that makes coding agents read less: 13% to 19% fewer tokens on runs that passed their hidden check, measured across 112 benchmark runs on three models, with success unchanged on Opus and Sonnet. Every raw run is published. MIT. → [`@thinwindow`](https://github.com/thinwindow) |
+| **[ThinWindow](https://github.com/thinwindow/thinwindow)** | Claude Code plugin and Agent Skill that makes coding agents read less: 13% to 19% fewer tokens on runs that passed their hidden check, measured across 112 benchmark runs on three models, with success unchanged on Opus and Sonnet. Every raw run is published. MIT. → [`@thinwindow`](https://github.com/thinwindow) | **[Antiagree](https://github.com/antiagree/antiagree)** | Claude skill, shipped as a Claude Code plugin and an Agent Skill, that challenges ideas, plans and decisions before you commit: it checks claims against the code and the data, tries to kill the proposal and ends with a GO / ITERATE / RETHINK / KILL verdict, saying GO when the plan holds up. On its five eval cases it passes 15 of 15 runs on Opus, Sonnet and Haiku 5.5, against 1 to 3 of 12 without it. MIT. → [`@antiagree`](https://github.com/antiagree) · [docs](https://antiagree.github.io/) |
+|
 | **[Gitset](https://gitset.dev)** | Open-source toolkit for everything around your code on GitHub — README, PR, issue and release drafting, repository backups. Web app and CLI (`@gitset-dev/cli`), bring-your-own-AI-key, MPL-2.0. → [`@gitset-dev`](https://github.com/gitset-dev) |
 | **[MCP Series](https://ivanluna.dev/projects/post-mcp-series)** | Production-ready Model Context Protocol servers for AI agents: browser automation, service integrations, real workflows for Claude Desktop and other MCP clients. → [`@mcp-series`](https://github.com/mcp-series) |
 | **[Tracevisor](https://tracevisor.com)** | Privacy-first web analytics as a GDPR/CCPA-compliant alternative to Google Analytics: real-time tracking, embeddable dashboards, carbon footprint metrics. → [`@tracevisor`](https://github.com/tracevisor) |
